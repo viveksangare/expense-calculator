@@ -1,0 +1,28 @@
+.app-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px;
+}
+
+.data-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+h1{
+    color: #344E41;
+    text-align: center;
+}
+.app-inner-wrapper{
+    width: 80%;
+}
+@media only screen and (min-width: 950px) {
+    .data-container {
+        flex-direction: row;
+        align-items: start;
+    }
+    .app-inner-wrapper{
+        width: 50%;
+    }
+}

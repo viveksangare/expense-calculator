@@ -1,0 +1,82 @@
+.table-wrapper {
+    background-color: #3A5A40;
+    padding: 3%;
+}
+
+table {
+    width: 100%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+th,
+td {
+    border: 1px solid #DAD7CD;
+    padding: 8px;
+    text-align: left;
+}
+
+tr {
+    background-color: #588157;
+    text-transform: capitalize;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #A3B18A;
+}
+
+tbody tr:hover {
+    background-color: #DAD7CD;
+}
+
+th ,tfoot td{
+    background-color: #344E41;
+    color: #DAD7CD;
+    font-weight: bold;
+    width: 30%;
+}
+
+td {
+    width: 30%;
+    color: black;
+}
+
+th button {
+    display: inline-block;
+    padding: 0 2;
+    background-color: #344E41;
+    outline: none;
+    border: 0;
+    color: #DAD7CD;
+    cursor: pointer;
+}
+
+table select {
+    outline: none;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    border: none;
+    background-color: #344E41;
+    color: #DAD7CD;
+    cursor: pointer;
+}
+
+th span {
+    margin-right: auto;
+}
+
+.amount-section div{
+    display: flex;
+}
+
+.notistack-styles{
+    font-family: 'Raleway';
+}
+
+@media only screen and (min-width: 400px){
+table{
+    font-size: 16px;
+}
+}
